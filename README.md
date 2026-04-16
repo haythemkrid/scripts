@@ -17,9 +17,9 @@ On récupère les scripts nécessaires depuis le dépôt principal :
 
 ```bash
 # Téléchargement des scripts d'automatisation
-wget [https://raw.githubusercontent.com/haythemkrid/scripts/refs/heads/main/init.sh](https://raw.githubusercontent.com/haythemkrid/scripts/refs/heads/main/init.sh)
-wget [https://raw.githubusercontent.com/haythemkrid/scripts/refs/heads/main/config.sh](https://raw.githubusercontent.com/haythemkrid/scripts/refs/heads/main/config.sh)
-wget [https://raw.githubusercontent.com/haythemkrid/scripts/refs/heads/main/run-5gs.sh](https://raw.githubusercontent.com/haythemkrid/scripts/refs/heads/main/run-5gs.sh)
+wget [https://raw.githubusercontent.com/haythemkrid/scripts/refs/heads/main/init.sh]
+wget [https://raw.githubusercontent.com/haythemkrid/scripts/refs/heads/main/config.sh]
+wget [https://raw.githubusercontent.com/haythemkrid/scripts/refs/heads/main/run-5gs.sh]
 
 # Attribution des droits d'exécution
 chmod +x init.sh config.sh run-5gs.sh
