@@ -22,22 +22,23 @@ sudo systemctl enable ztm-agent.service
 sudo ztm start agent
 ```
 
-# Set your Endpoint Name and join the mesh
+## Set your Endpoint Name and join the mesh
 ```bash
 sudo ztm join my-mesh --as EP_NAME_change_me --permit ztm-root.json
 ```
 
-# Get eps in your mesh network
+## Get eps in your mesh network
 ```bash
 sudo ztm get ep
 ```
 
 
-# Access the terminal of an ep
+## Access the terminal of an ep
 ```bash
 sudo ztm terminal open SERVER_EP
 ```
-# Login via your user inside the server
+
+## Login via your user inside the server
 ```bash
 su - myuser
 ```
